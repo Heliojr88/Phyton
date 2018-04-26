@@ -1,0 +1,7 @@
+print('\033[31m -*- \033[m' * 5 )
+print('\033[7;31;40m Cadastro de usuários \033[m')
+print('\033[31m -*- \033[m' * 5)
+nome = input('Qual é o seu nome? - ')
+idade = input('Qual é sua idade? - ')
+data = input('Qual é sua data de nascimento? - ')
+print('Olá \033[4;30m{}\033[m'.format(nome),'você tem \033[1;30m{}\033[m anos'.format(idade), 'e nasceu em \033[7;35;40m{}\033[m'.format(data))
